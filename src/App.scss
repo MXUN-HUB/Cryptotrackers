@@ -1,0 +1,32 @@
+:root{
+    --background-color: #161625;
+    --background-search:#1E1E30;
+    --gradient-color:linear-gradient(315deg, #0cbaba 0%, #380036 74%);
+    --font-size-title:2.5rem;
+
+}
+
+*{
+    align-items: center;
+    background: var(--background-color);
+    text-align: center;
+}
+.title{
+    background: var(--gradient-color);
+    font-size: var(--font-size-title);
+    padding: 1.5rem;
+    margin: 3rem 38% 20px 38%;
+    border-radius: 10px;
+    
+    
+}
+
+input{
+    background: var(--background-search);
+    border-radius: 40px;
+    width: 20rem;
+    height: 3rem;
+    text-align: left;
+    margin-top: 40px;
+    padding-left: 2rem;
+}
